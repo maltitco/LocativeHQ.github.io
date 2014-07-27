@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: table;
+  margin: 0 auto;
+}
+
+.gf-logo-container {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.gf-logo {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  background: #fff;
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  border-radius: 250px;
+  background-image: url(../img/geofancy-500.png);
+  background-repeat: no-repeat;
+}
+
+.gf-logo-container p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gf-subtitle {
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+.gf-description {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .gf-logo {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    background-image: url(../img/geofancy-300.png);
+  }
+}
