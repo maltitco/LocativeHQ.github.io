@@ -21,7 +21,7 @@ body {
   -webkit-border-radius: 250px;
   -moz-border-radius: 250px;
   border-radius: 250px;
-  background-image: url(../img/logo-500.png);
+  background-image: url(//static-assets.locative.io/img/logo-500.png);
   background-repeat: no-repeat;
 }
 
@@ -44,6 +44,6 @@ body {
     margin: 0 auto;
     height: 300px;
     width: 300px;
-    background-image: url(../img/logo-300.png);
+    background-image: url(//static-assets.locative.io/img/logo-300.png);
   }
 }
